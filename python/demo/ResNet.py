@@ -104,7 +104,7 @@ def epoch(dataloader, model, opt=None):
     ### END YOUR SOLUTION
 
 
-def train_mnist(batch_size=100, epochs=10, optimizer=ttorch.optim.Adam,
+def train_cifar10(batch_size=100, epochs=10, optimizer=ttorch.optim.Adam,
                 lr=0.01, weight_decay=0.001, data_dir="data", device=None):
     np.random.seed(0)
 
